@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="MainActivity" default="makeh">
+	
+	<target name="makeh">
+		<javah class="com.wv1124.android.test.NativeApi" outputfile="bin/"></javah>
+	</target>
+</project>
